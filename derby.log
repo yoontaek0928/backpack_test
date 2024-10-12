@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
-Sat Oct 12 14:38:13 KST 2024:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0192-7f3c-06f3-00000fa54000 
+Sat Oct 12 15:40:52 KST 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0192-7f75-6096-000023226078 
 on database directory /Users/eeyoontaek/Desktop/backpack_test/metastore_db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@67424e82 
 Loaded from file:/opt/spark/jars/derby-10.14.2.0.jar
 java.vendor=Homebrew
