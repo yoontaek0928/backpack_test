@@ -1,0 +1,12 @@
+*.csv
+
+/checkpoints/
+/output/
+/target/
+
+/metastore_db/
+/derby.log
+
+/.idea/
+/project/target/
+/*.log

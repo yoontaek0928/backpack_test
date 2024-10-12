@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Created-By: Plexus Archiver 4.2.1
+Build-Jdk: 1.8 (BellSoft 11.0.14+9-LTS)
+Build-OS: Mac OS X x86_64 12.3.1
+GroupId-ArtifactId: org.apache.datasketches:datasketches-memory
+Implementation-Vendor: The Apache Software Foundation
+Multi-Release: true
+git-branch: 2.1.X
+git-commit-id: 69f4c0736f8825b4a8c65c9537c5a47d0af261d4
+git-commit-tag: 2.1.0-RC1
+git-commit-time: 2022-05-13T13:42:19+0000
+git-commit-user-email: dcromberge@apache.org
+

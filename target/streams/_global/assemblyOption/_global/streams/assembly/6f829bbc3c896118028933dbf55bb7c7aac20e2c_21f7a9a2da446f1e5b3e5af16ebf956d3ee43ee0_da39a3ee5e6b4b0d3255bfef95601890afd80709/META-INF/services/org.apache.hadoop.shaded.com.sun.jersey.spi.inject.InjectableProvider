@@ -1,0 +1,5 @@
+org.apache.hadoop.shaded.com.sun.jersey.core.impl.provider.xml.SAXParserContextProvider
+org.apache.hadoop.shaded.com.sun.jersey.core.impl.provider.xml.XMLStreamReaderContextProvider
+org.apache.hadoop.shaded.com.sun.jersey.core.impl.provider.xml.DocumentBuilderFactoryProvider
+org.apache.hadoop.shaded.com.sun.jersey.core.impl.provider.xml.TransformerFactoryProvider
+

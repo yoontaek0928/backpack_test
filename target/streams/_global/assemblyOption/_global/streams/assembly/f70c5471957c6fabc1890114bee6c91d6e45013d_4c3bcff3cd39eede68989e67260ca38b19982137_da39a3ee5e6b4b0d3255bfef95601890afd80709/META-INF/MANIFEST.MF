@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 1.8
+Implementation-Title: ORC Shims
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Version: 1.9.4
+Specification-Title: ORC Shims
+Specification-Vendor: The Apache Software Foundation
+Specification-Version: 1.9
+

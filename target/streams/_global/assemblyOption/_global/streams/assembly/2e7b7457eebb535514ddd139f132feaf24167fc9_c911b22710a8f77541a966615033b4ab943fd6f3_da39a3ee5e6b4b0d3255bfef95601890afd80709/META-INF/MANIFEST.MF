@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven Bundle Plugin
+Built-By: andy
+Build-Jdk: 1.8.0_51
+Bnd-LastModified: 1442255883258
+Bundle-Description: The Java Data Objects API (JDO) : a standard inter
+ face-based Java model abstraction of persistence, developed by the JCP.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: JDO API
+Bundle-SymbolicName: javax.jdo;singleton:=true
+Bundle-Version: 3.2.0.m3
+Export-Package: javax.jdo;uses:="javax.jdo.datastore,javax.jdo.listene
+ r,javax.jdo.metadata,javax.jdo.query,javax.naming,javax.transaction,j
+ avax.xml.parsers,org.w3c.dom,org.xml.sax";version="3.2.0.m3",javax.jd
+ o.query;version="3.2.0.m3",javax.jdo.annotations;uses:="javax.jdo";ve
+ rsion="3.2.0.m3",javax.jdo.spi;uses:="javax.jdo,javax.xml.parsers,org
+ .xml.sax";version="3.2.0.m3",javax.jdo.datastore;version="3.2.0.m3",j
+ avax.jdo.listener;version="3.2.0.m3",javax.jdo.metadata;uses:="javax.
+ jdo,javax.jdo.annotations";version="3.2.0.m3",javax.jdo.identity;uses
+ :="javax.jdo.spi";version="3.2.0.m3"
+Import-Package: javax.naming;resolution:=optional,javax.rmi;resolution
+ :=optional,javax.transaction;resolution:=optional,javax.xml.parsers;r
+ esolution:=optional,org.w3c.dom;resolution:=optional,org.xml.sax;reso
+ lution:=optional
+Tool: Bnd-2.1.0.20130426-122213
+

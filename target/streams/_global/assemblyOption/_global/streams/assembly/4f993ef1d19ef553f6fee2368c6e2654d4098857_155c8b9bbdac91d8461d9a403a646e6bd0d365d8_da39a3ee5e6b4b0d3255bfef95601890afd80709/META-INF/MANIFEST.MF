@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.apache.logging.log4j.slf4j2-impl
+Implementation-Vendor-Id: org.apache
+Specification-Title: Apache Log4j SLF4J 2.0 Binding
+Bundle-DocURL: https://www.apache.org/
+Import-Package: org.apache.logging.log4j;version="[2.20,3)",org.apache
+ .logging.log4j.message;version="[2.20,3)",org.apache.logging.log4j.sp
+ i;version="[2.20,3)",org.apache.logging.log4j.status;version="[2.20,3
+ )",org.apache.logging.log4j.util;version="[2.20,3)",org.slf4j;version
+ ="[2.0,3)",org.slf4j.event;version="[2.0,3)",org.slf4j.spi;version="[
+ 2.0,3)"
+Require-Capability: osgi.extender;filter:="(osgi.extender=osgi.service
+ loader.registrar)",osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Provide-Capability: osgi.serviceloader;osgi.serviceloader="org.slf4j.s
+ pi.SLF4JServiceProvider"
+Export-Package: org.apache.logging.slf4j;uses:="org.apache.logging.log
+ 4j,org.apache.logging.log4j.spi,org.slf4j,org.slf4j.event,org.slf4j.s
+ pi";version="2.20.0",org.slf4j.impl;version="2.20.0"
+Bundle-Name: Apache Log4j SLF4J 2.0 Binding
+Build-Jdk-Spec: 1.8
+Implementation-Title: Apache Log4j SLF4J 2.0 Binding
+Bundle-Description: The Apache Log4j SLF4J 2.0 API binding to Log4j 2 
+ Core
+Automatic-Module-Name: org.apache.logging.log4j.slf4j
+Implementation-Version: 2.20.0
+Specification-Vendor: The Apache Software Foundation
+Bundle-ManifestVersion: 2
+Bundle-Vendor: The Apache Software Foundation
+Tool: Bnd-6.3.1.202206071316
+Implementation-Vendor: The Apache Software Foundation
+Bundle-Version: 2.20.0
+X-Compile-Target-JDK: 1.8
+X-Compile-Source-JDK: 1.8
+Created-By: Apache Maven Bundle Plugin 5.1.8
+Specification-Version: 2.20
+

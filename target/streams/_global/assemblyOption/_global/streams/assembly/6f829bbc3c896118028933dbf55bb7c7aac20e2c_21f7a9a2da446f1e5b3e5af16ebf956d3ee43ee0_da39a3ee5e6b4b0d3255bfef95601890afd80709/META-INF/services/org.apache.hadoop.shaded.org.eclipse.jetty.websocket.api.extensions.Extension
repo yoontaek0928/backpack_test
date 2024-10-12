@@ -1,0 +1,5 @@
+org.apache.hadoop.shaded.org.eclipse.jetty.websocket.common.extensions.identity.IdentityExtension
+org.apache.hadoop.shaded.org.eclipse.jetty.websocket.common.extensions.fragment.FragmentExtension
+org.apache.hadoop.shaded.org.eclipse.jetty.websocket.common.extensions.compress.PerMessageDeflateExtension
+org.apache.hadoop.shaded.org.eclipse.jetty.websocket.common.extensions.compress.DeflateFrameExtension
+org.apache.hadoop.shaded.org.eclipse.jetty.websocket.common.extensions.compress.XWebkitDeflateFrameExtension

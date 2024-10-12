@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Created-By: singlejar
+Automatic-Module-Name: com.google.crypto.tink
+

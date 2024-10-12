@@ -1,0 +1,9 @@
+org.apache.hadoop.shaded.com.sun.jersey.core.impl.provider.header.LocaleProvider
+org.apache.hadoop.shaded.com.sun.jersey.core.impl.provider.header.EntityTagProvider
+org.apache.hadoop.shaded.com.sun.jersey.core.impl.provider.header.MediaTypeProvider
+org.apache.hadoop.shaded.com.sun.jersey.core.impl.provider.header.CacheControlProvider
+org.apache.hadoop.shaded.com.sun.jersey.core.impl.provider.header.NewCookieProvider
+org.apache.hadoop.shaded.com.sun.jersey.core.impl.provider.header.CookieProvider
+org.apache.hadoop.shaded.com.sun.jersey.core.impl.provider.header.URIProvider
+org.apache.hadoop.shaded.com.sun.jersey.core.impl.provider.header.DateProvider
+org.apache.hadoop.shaded.com.sun.jersey.core.impl.provider.header.StringProvider

@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: Apache Yetus - Audience Annotations
+Implementation-Version: 0.13.0
+Built-By: aw
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: Apache Yetus - Audience Annotations
+Implementation-Vendor-Id: org.apache.yetus
+Created-By: Apache Maven 3.6.3
+Build-Jdk: 1.8.0_272
+Specification-Version: 0.13
+Implementation-URL: https://yetus.apache.org/audience-annotations
+Implementation-Vendor: The Apache Software Foundation
+

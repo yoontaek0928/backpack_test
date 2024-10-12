@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.8 (BellSoft 11.0.14+9-LTS)
+Build-OS: Mac OS X x86_64 12.3.1
+GroupId-ArtifactId: org.apache.datasketches:datasketches-java
+Implementation-Vendor: The Apache Software Foundation
+git-branch: 3.3.X
+git-commit-id: fbe2fd440353caebba21aebef41c63bdb30b5e0e
+git-commit-tag: 3.3.0-RC1
+git-commit-time: 2022-05-27T13:51:12+0000
+git-commit-user-email: dcromberge@apache.org
+

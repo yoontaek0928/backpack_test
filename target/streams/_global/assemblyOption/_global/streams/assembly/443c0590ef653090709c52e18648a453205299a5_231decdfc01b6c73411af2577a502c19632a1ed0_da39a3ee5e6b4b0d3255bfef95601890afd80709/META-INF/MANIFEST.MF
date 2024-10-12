@@ -1,0 +1,62 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 1.8
+Bundle-Description: Jersey core client implementation
+Bundle-DocURL: https://www.eclipse.org/org/foundation/
+Bundle-License: http://www.eclipse.org/legal/epl-2.0, https://www.gnu.
+ org/software/classpath/license.html, http://www.eclipse.org/org/docum
+ ents/edl-v10.php, https://opensource.org/licenses/BSD-2-Clause, http:
+ //www.apache.org/licenses/LICENSE-2.0.html, https://creativecommons.o
+ rg/publicdomain/zero/1.0/, https://asm.ow2.io/license.html, jquery.or
+ g/license, http://www.opensource.org/licenses/mit-license.php, https:
+ //www.w3.org/Consortium/Legal/copyright-documents-19990405
+Bundle-ManifestVersion: 2
+Bundle-Name: jersey-core-client
+Bundle-SymbolicName: org.glassfish.jersey.core.jersey-client
+Bundle-Vendor: Eclipse Foundation
+Bundle-Version: 2.40.0
+Created-By: Apache Maven Bundle Plugin 5.1.9
+Export-Package: org.glassfish.jersey.client;version="2.40.0";uses:="ja
+ vax.inject,javax.net.ssl,javax.ws.rs,javax.ws.rs.client,javax.ws.rs.c
+ ore,javax.ws.rs.ext,org.glassfish.jersey,org.glassfish.jersey.client.
+ inject,org.glassfish.jersey.client.spi,org.glassfish.jersey.internal,
+ org.glassfish.jersey.internal.inject,org.glassfish.jersey.internal.ut
+ il,org.glassfish.jersey.internal.util.collection,org.glassfish.jersey
+ .message,org.glassfish.jersey.message.internal,org.glassfish.jersey.s
+ pi",org.glassfish.jersey.client.authentication;version="2.40.0";uses:
+ ="javax.ws.rs,javax.ws.rs.client,javax.ws.rs.core",org.glassfish.jers
+ ey.client.filter;version="2.40.0";uses:="javax.inject,javax.ws.rs.cli
+ ent,javax.ws.rs.core,org.glassfish.jersey.internal.inject",org.glassf
+ ish.jersey.client.http;version="2.40.0";uses:="javax.ws.rs.core",org.
+ glassfish.jersey.client.inject;version="2.40.0";uses:="org.glassfish.
+ jersey.model",org.glassfish.jersey.client.innate;version="2.40.0";use
+ s:="javax.ws.rs.core,org.glassfish.jersey.client",org.glassfish.jerse
+ y.client.innate.http;version="2.40.0";uses:="javax.net.ssl,org.glassf
+ ish.jersey.client",org.glassfish.jersey.client.innate.inject;version=
+ "2.40.0";uses:="javax.ws.rs,org.glassfish.jersey.internal.inject,org.
+ glassfish.jersey.process.internal",org.glassfish.jersey.client.spi;ve
+ rsion="2.40.0";uses:="javax.net.ssl,javax.ws.rs,javax.ws.rs.client,ja
+ vax.ws.rs.core,org.glassfish.jersey.client,org.glassfish.jersey.proce
+ ss,org.glassfish.jersey.spi"
+Import-Package: javax.annotation;version="[1.2,3)",javax.inject;versio
+ n="[1.0,2)",javax.net.ssl,javax.ws.rs;version="[2.1,3)",javax.ws.rs.c
+ lient;version="[2.1,3)",javax.ws.rs.core;version="[2.1,3)",javax.ws.r
+ s.ext;version="[2.1,3)",org.glassfish.jersey;version="[2.40,3)",org.g
+ lassfish.jersey.client.inject;version="[2.40,3)",org.glassfish.jersey
+ .client.spi;version="[2.40,3)",org.glassfish.jersey.internal;version=
+ "[2.40,3)",org.glassfish.jersey.internal.config;version="[2.40,3)",or
+ g.glassfish.jersey.internal.guava;version="[2.40,3)",org.glassfish.je
+ rsey.internal.inject;version="[2.40,3)",org.glassfish.jersey.internal
+ .l10n;version="[2.40,3)",org.glassfish.jersey.internal.routing;versio
+ n="[2.40,3)",org.glassfish.jersey.internal.spi;version="[2.40,3)",org
+ .glassfish.jersey.internal.util;version="[2.40,3)",org.glassfish.jers
+ ey.internal.util.collection;version="[2.40,3)",org.glassfish.jersey.m
+ essage;version="[2.40,3)",org.glassfish.jersey.message.internal;versi
+ on="[2.40,3)",org.glassfish.jersey.model;version="[2.40,3)",org.glass
+ fish.jersey.model.internal;version="[2.40,3)",org.glassfish.jersey.pr
+ ocess;version="[2.40,3)",org.glassfish.jersey.process.internal;versio
+ n="[2.40,3)",org.glassfish.jersey.spi;version="[2.40,3)",org.glassfis
+ h.jersey.uri;version="[2.40,3)",org.glassfish.jersey.uri.internal;ver
+ sion="[2.40,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-6.3.1.202206071316
+

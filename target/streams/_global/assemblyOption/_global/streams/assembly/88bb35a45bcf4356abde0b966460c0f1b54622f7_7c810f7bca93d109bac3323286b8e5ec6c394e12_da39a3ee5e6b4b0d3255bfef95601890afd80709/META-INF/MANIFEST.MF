@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bundle-License: http://www.eclipse.org/legal/epl-2.0, https://www.gnu.
+ org/software/classpath/license.html
+Bundle-SymbolicName: jakarta.servlet-api
+Archiver-Version: Plexus Archiver
+Built-By: default
+Bnd-LastModified: 1566398855350
+Implementation-Vendor-Id: org.eclipse
+Bundle-DocURL: https://www.eclipse.org
+Import-Package: javax.servlet,javax.servlet.annotation,javax.servlet.d
+ escriptor
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Export-Package: javax.servlet;uses:="javax.servlet.annotation,javax.se
+ rvlet.descriptor";version="4.0.0",javax.servlet.annotation;uses:="jav
+ ax.servlet";version="4.0.0",javax.servlet.descriptor;version="4.0.0",
+ javax.servlet.http;uses:="javax.servlet";version="4.0.0"
+Bundle-Name: Jakarta Servlet
+Extension-Name: javax.servlet
+Bundle-Description: Jakarta Servlet 4.0
+Automatic-Module-Name: java.servlet
+Implementation-Version: 4.0.3
+Bundle-ManifestVersion: 2
+Specification-Vendor: Eclipse Foundation
+Bundle-Vendor: Eclipse Foundation
+Tool: Bnd-4.0.0.201805111645
+Implementation-Vendor: Eclipse Foundation
+Bundle-Version: 4.0.0
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_202
+Specification-Version: 4.0
+

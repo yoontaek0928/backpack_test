@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.apache.logging.log4j.api
+Implementation-Vendor-Id: org.apache
+Specification-Title: Apache Log4j API
+Bundle-DocURL: https://www.apache.org/
+Import-Package: org.apache.logging.log4j.message,org.apache.logging.lo
+ g4j.simple,org.apache.logging.log4j.status,org.apache.logging.log4j.u
+ til,org.osgi.framework;version="[1.8,2)",org.osgi.framework.wiring;ve
+ rsion="[1.2,2)",sun.reflect;resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Export-Package: org.apache.logging.log4j;uses:="org.apache.logging.log
+ 4j.message,org.apache.logging.log4j.spi,org.apache.logging.log4j.util
+ ";version="2.20.0",org.apache.logging.log4j.message;uses:="org.apache
+ .logging.log4j.util";version="2.20.0",org.apache.logging.log4j.simple
+ ;uses:="org.apache.logging.log4j,org.apache.logging.log4j.message,org
+ .apache.logging.log4j.spi,org.apache.logging.log4j.util";version="2.2
+ 0.0",org.apache.logging.log4j.spi;uses:="org.apache.logging.log4j,org
+ .apache.logging.log4j.message,org.apache.logging.log4j.util";version=
+ "2.20.0",org.apache.logging.log4j.status;uses:="org.apache.logging.lo
+ g4j,org.apache.logging.log4j.message,org.apache.logging.log4j.spi";ve
+ rsion="2.20.0",org.apache.logging.log4j.util;uses:="org.apache.loggin
+ g.log4j.message,org.apache.logging.log4j.spi,org.osgi.framework";vers
+ ion="2.20.0"
+Bundle-Name: Apache Log4j API
+Multi-Release: true
+Bundle-Activator: org.apache.logging.log4j.util.Activator
+Build-Jdk-Spec: 1.8
+Implementation-Title: Apache Log4j API
+Bundle-Description: The Apache Log4j API
+Implementation-Version: 2.20.0
+Specification-Vendor: The Apache Software Foundation
+Bundle-ManifestVersion: 2
+Bundle-Vendor: The Apache Software Foundation
+Tool: Bnd-6.3.1.202206071316
+Implementation-Vendor: The Apache Software Foundation
+Bundle-Version: 2.20.0
+X-Compile-Target-JDK: 1.8
+X-Compile-Source-JDK: 1.8
+Created-By: Apache Maven Bundle Plugin 5.1.8
+Specification-Version: 2.20
+

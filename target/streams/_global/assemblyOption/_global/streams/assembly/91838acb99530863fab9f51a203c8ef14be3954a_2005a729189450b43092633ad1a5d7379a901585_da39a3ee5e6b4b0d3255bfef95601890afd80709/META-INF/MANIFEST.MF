@@ -1,0 +1,56 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.apache.avro.mapred
+Build-Jdk-Spec: 1.8
+Bundle-Description: An org.apache.hadoop.mapred compatible API for usi
+ ng Avro Serialization in Hadoop
+Bundle-DocURL: https://www.apache.org/
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Avro Mapred API
+Bundle-SymbolicName: avro-mapred
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.11.2
+Created-By: Apache Maven Bundle Plugin 5.1.8
+Export-Package: org.apache.avro.mapred;version="1.11.2";uses:="org.apa
+ che.avro,org.apache.avro.file,org.apache.avro.generic,org.apache.avro
+ .specific,org.apache.avro.util,org.apache.hadoop.conf,org.apache.hado
+ op.fs,org.apache.hadoop.io,org.apache.hadoop.io.serializer,org.apache
+ .hadoop.mapred,org.apache.hadoop.util",org.apache.avro.mapred.tether;
+ version="1.11.2";uses:="org.apache.avro,org.apache.avro.generic,org.a
+ pache.avro.specific,org.apache.hadoop.conf,org.apache.hadoop.mapred",
+ org.apache.avro.mapreduce;version="1.11.2";uses:="org.apache.avro,org
+ .apache.avro.file,org.apache.avro.generic,org.apache.avro.hadoop.io,o
+ rg.apache.avro.io,org.apache.avro.mapred,org.apache.hadoop.conf,org.a
+ pache.hadoop.fs,org.apache.hadoop.io,org.apache.hadoop.mapreduce,org.
+ apache.hadoop.mapreduce.lib.input,org.apache.hadoop.mapreduce.lib.out
+ put",org.apache.avro.hadoop.file;version="1.11.2";uses:="org.apache.a
+ vro,org.apache.avro.file,org.apache.avro.generic,org.apache.avro.hado
+ op.io,org.apache.hadoop.conf,org.apache.hadoop.fs",org.apache.avro.ha
+ doop.io;version="1.11.2";uses:="org.apache.avro,org.apache.avro.gener
+ ic,org.apache.avro.io,org.apache.avro.mapred,org.apache.hadoop.conf,o
+ rg.apache.hadoop.fs,org.apache.hadoop.io,org.apache.hadoop.io.compres
+ s,org.apache.hadoop.io.serializer,org.apache.hadoop.util",org.apache.
+ avro.hadoop.util;version="1.11.2"
+Implementation-Title: Apache Avro Mapred API
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Version: 1.11.2
+Import-Package: org.apache.avro;version="1.11.2",org.apache.avro.file;
+ version="1.11.2",org.apache.avro.generic;version="1.11.2",org.apache.
+ avro.hadoop.file;version="1.11.2",org.apache.avro.hadoop.io;version="
+ 1.11.2",org.apache.avro.hadoop.util;version="1.11.2",org.apache.avro.
+ io;version="1.11.2",org.apache.avro.ipc;version="1.11.2",org.apache.a
+ vro.ipc.jetty;version="1.11.2",org.apache.avro.ipc.specific;version="
+ 1.11.2",org.apache.avro.reflect;version="1.11.2",org.apache.avro.spec
+ ific;version="1.11.2",org.apache.avro.util;version="1.11.2",org.apach
+ e.hadoop.conf,org.apache.hadoop.filecache,org.apache.hadoop.fs,org.ap
+ ache.hadoop.io,org.apache.hadoop.io.compress,org.apache.hadoop.io.ser
+ ializer,org.apache.hadoop.mapred,org.apache.hadoop.mapred.lib,org.apa
+ che.hadoop.mapreduce,org.apache.hadoop.mapreduce.lib.input,org.apache
+ .hadoop.mapreduce.lib.output,org.apache.hadoop.mapreduce.task,org.apa
+ che.hadoop.util,org.slf4j;version="[1.7,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Specification-Title: Apache Avro Mapred API
+Specification-Vendor: The Apache Software Foundation
+Specification-Version: 1.11
+Tool: Bnd-6.3.1.202206071316
+
